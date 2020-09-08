@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    font-family: helvetica;
+    box-sizing: border-box;    
+}
+body{
+    background-color: black;
+}
+h1, h2, h3, p {
+	color: white;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    padding: 25px;
+    font-variant-caps: all-small-caps;
+    font-size: 35px;
+}
+a{
+	color: deepskyblue;
+    text-decoration: none;
+}
+nav{
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: deepskyblue;
+}
+li{
+    float: left;
+    width: 50%;
+}
+li a{
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 15px 30px;
+}
+li a:hover{
+    background-color: darkblue;
+    color: white;
+}
+footer{
+    border-top: 5px double deepskyblue;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+hr{
+    width: 50%
+}
+.fnav{
+    font-size: 20px;
+    font-weight: bold;
+}
+#logo{
+    color: deepskyblue;
+}
+.scrs{
+    width: 35%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.conteiner{
+    margin: 10px 300px;
+}
+.container{
+    margin: 10px 250px;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+}
+.col{
+    padding: 10px;
+    float: left;
+}
+.cor{
+    display: table;
+}
+.c100{
+    width: 100%;
+    text-align: center;
+}
+
